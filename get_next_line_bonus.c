@@ -6,7 +6,7 @@
 /*   By: ccakir <ccakir@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/25 23:57:09 by ccakir            #+#    #+#             */
-/*   Updated: 2025/08/19 18:55:04 by ccakir           ###   ########.fr       */
+/*   Updated: 2025/08/19 19:49:02 by ccakir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ char	*get_next_line(int fd)
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
-	stash = addstash(fd, stash[fd]);
+	stash[fd] = addstash(fd, stash[fd]);
 	if (!stash[fd])
 		return (NULL);
 	line = extline(stash[fd]);

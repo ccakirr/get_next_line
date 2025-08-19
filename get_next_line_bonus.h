@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccakir <ccakir@student.42istanbul.com.t    +#+  +:+       +#+        */
+/*   By: ccakir <ccakir@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/11 20:16:07 by ccakir            #+#    #+#             */
-/*   Updated: 2025/07/11 20:16:07 by ccakir           ###   ########.fr       */
+/*   Created: 2025/08/19 19:50:39 by ccakir            #+#    #+#             */
+/*   Updated: 2025/08/19 19:51:40 by ccakir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 61
